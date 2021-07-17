@@ -1,6 +1,6 @@
 # Off Strength Workouts
 
-##Description:
+## Description:
 
 -Off strength workouts is a MERN **(MongoDB, Express, React, Node)** stack application
 
