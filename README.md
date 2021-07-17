@@ -8,3 +8,10 @@
 
 
 ![alt text](https://s6.gifyu.com/images/Screen-Shot-2021-07-17-at-6.55.29-PM.png)
+
+
+## To run on localhost
+-Download repo contents
+  -client, server, any extra files
+  
+
