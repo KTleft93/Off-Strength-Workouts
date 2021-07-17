@@ -14,7 +14,11 @@
 - Download repo contents
   - client, server, any extra files
 
-- Inside server folder run:
+- Inside server folder run command:
 
 `node server.js`
+
+- Inside client folder run command:
+
+`npm start`
 
