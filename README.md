@@ -13,5 +13,7 @@
 ## To run on localhost
 - Download repo contents
   - client, server, any extra files
-  
+
+-Inside server folder run:
+`node server.js`
 
