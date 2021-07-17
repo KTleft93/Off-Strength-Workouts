@@ -1,0 +1,13 @@
+.grid-container{
+	display: grid;
+	grid-template-columns: repeat(3,200px);
+	grid-row-gap: 20px;
+	grid-column-gap: 100px;
+	justify-content: center;
+
+}
+
+.btn btn-primary{
+
+	align-content: center;
+}
