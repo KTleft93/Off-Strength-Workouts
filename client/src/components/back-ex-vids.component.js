@@ -39,8 +39,6 @@ render(){
 
 return(
 
-return(
-
 <div className="grid-container">
 
 <div class="card" style={{width: "20rem"}}>
