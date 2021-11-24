@@ -1,15 +1,39 @@
 
-body{
+html, body{
 
+  position: relative;
   background: #ff5f6d;
     background: -webkit-linear-gradient(to right, #00001a, #00004d);
     background: linear-gradient(to right, #00001a, #00004d);
-    margin-bottom:200px;
+    height: 100%;
   }
 
 label {
   display: block;
   margin-top: 10px;
+}
+
+.container{
+  padding-top: 7%;
+   padding-bottom: 2.5rem;
+   height: 100%;
+}
+
+.parent{
+
+   min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+}
+
+.fixed-footer {
+  position:relative;
+left:0;
+bottom:100%;
+right:0;
+text-align: center;
+ 
 }
 
 /* Start of banner */
@@ -54,6 +78,8 @@ text-align: center;
 
 .child-2{
   padding-top: 30px;
+  display: block;
+
 }
 
 .child-3{
@@ -62,17 +88,56 @@ float: left;
 
 }
 
+/*form*/
+
+form{
+
+ margin-bottom: 5rem;
+}
+
+.card.card-container{
+  width:60vw;
+  margin:auto;
+  background-color: lightgrey;
+}
+
+.btn.btn-primary.btn-block{
+  width:50%;
+  margin:  3rem auto;
+  display: block;
+}
+
+.form-heading{
+  text-align: center;
+  padding-top: 6%;
+  }
+
+
+.form-group{
+  text-align: center;
+  
+ 
+}
+
+.form-control{
+
+   background: transparent;
+   width: 45%;
+    border: none;
+    border-bottom: 2.3px solid #4B89E9;
+    margin-left: 27%;
+    margin-right: 27%;
+   
+}
+
 
 #page-content {
   flex: 1 0 auto;
 }
 
-#sticky-footer {
-  flex-shrink: none;
-}
 
 #button-addon1 {
-    color: #ffc371
+    color: ##ff5f6d
 }
 
 
@@ -98,29 +163,4 @@ p {
     font-family: 'Sanchez 200', serif
 }
 
-footer {
-     clear: both;
-    background: blue;
-    color: White;
-    padding: 0;
-    text-align: center;
-    vertical-align: middle;
-    line-height: normal;
-    margin: 0;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
- 
-}
 
-.page-container {
-  position: relative;
-  min-height: 100vh;
-}
-
-.app{
-
-padding-left: 20rem;
-
-
-}

@@ -9,19 +9,19 @@ export default class Footer extends Component {
 
     return(
 
-      <div>
+      <div className="fixed-footer">
 
 
 <footer style={{backgroundColor: "black"}} class="">
-        <div class="container">
-          <div class="row row-30">
-            <div class="col-md-4 col-xl-5">
-              <div class="pr-xl-4"><a class="brand" href="index.html"></a>
+        <div class="">
+          <div class="">
+            <div class="">
+              <div class=""><a class="" href="index.html"></a>
                 <p>Off Strength is committed to providing quality exercise routines for individuals. Go to the main website for personalized workout plans, health and fitness blogs, and more.</p>
                 
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="">
               <h5>Main Website</h5>
               <dl class="contact-list">
                 <dt>Website:</dt>
@@ -29,7 +29,7 @@ export default class Footer extends Component {
               </dl>
             
             </div>
-            <div class="col-md-4 col-xl-3">
+            <div class="">
               <h5>Contact Me</h5>
               <dl class="contact-list">
                 <dt>email:</dt>

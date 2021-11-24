@@ -36,6 +36,56 @@ const vusername = value => {
   }
 };
 
+const vname = value => {
+  if (value.length < 3 || value.length > 20) {
+    return (
+      <div className="alert alert-danger" role="alert">
+        The full name must be between 3 and 20 characters.
+      </div>
+    );
+  }
+};
+
+const vage = value => {
+  if (value.length > 2) {
+    return (
+      <div className="alert alert-danger" role="alert">
+        The age must be between 1 and 2 digits.
+      </div>
+    );
+  }
+};
+
+const vheight = value => {
+  if (value.length > 2 || value.length < 2 && Number.isInteger(value) ) {
+    return (
+      <div className="alert alert-danger" role="alert">
+        The height must be 2 digits in inches.
+      </div>
+    );
+  }
+};
+
+const vweight = value => {
+  if (value.length > 3 ) {
+    return (
+      <div className="alert alert-danger" role="alert">
+        The weight must be less than 4 numbers.
+      </div>
+    );
+  }
+};
+
+const vgoal = value => {
+  if (value.length < 5 || value.length > 50) {
+    return (
+      <div className="alert alert-danger" role="alert">
+        The Goal must be between 5 and 50 characters.
+      </div>
+    );
+  }
+};
+
 const vpassword = value => {
   if (value.length < 6 || value.length > 40) {
     return (
@@ -52,11 +102,21 @@ export default class Register extends Component {
     this.handleRegister = this.handleRegister.bind(this);
     this.onChangeUsername = this.onChangeUsername.bind(this);
     this.onChangeEmail = this.onChangeEmail.bind(this);
+    this.onChangeName = this.onChangeName.bind(this);
+    this.onChangeAge = this.onChangeAge.bind(this);
+    this.onChangeHeight = this.onChangeHeight.bind(this);
+    this.onChangeWeight = this.onChangeWeight.bind(this);
+    this.onChangeGoal = this.onChangeGoal.bind(this);
     this.onChangePassword = this.onChangePassword.bind(this);
 
     this.state = {
       username: "",
       email: "",
+       name: "",
+       age: "",
+       height: "",
+      weight: "",
+      goal: "",
       password: "",
       successful: false,
       message: ""
@@ -75,6 +135,35 @@ export default class Register extends Component {
     });
   }
 
+  onChangeName(e) {
+    this.setState({
+      name: e.target.value
+    });
+  }
+
+    onChangeAge(e) {
+    this.setState({
+      age: e.target.value
+    });
+  }
+
+    onChangeWeight(e) {
+    this.setState({
+      weight: e.target.value
+    });
+  }
+
+    onChangeHeight(e) {
+    this.setState({
+      height: e.target.value
+    });
+  }
+
+    onChangeGoal(e) {
+    this.setState({
+      goal: e.target.value
+    });
+  }
   onChangePassword(e) {
     this.setState({
       password: e.target.value
@@ -95,6 +184,11 @@ export default class Register extends Component {
       AuthService.register(
         this.state.username,
         this.state.email,
+        this.state.name,
+        this.state.age,
+        this.state.weight,
+        this.state.height,
+        this.state.goal,
         this.state.password
       ).then(
         response => {
@@ -121,7 +215,10 @@ export default class Register extends Component {
   }
 
   render() {
+
     return (
+
+    <div className="container">
       <div className="col-md-12">
         <div className="card card-container">
          
@@ -155,6 +252,71 @@ export default class Register extends Component {
                     value={this.state.email}
                     onChange={this.onChangeEmail}
                     validations={[required, email]}
+                  />
+                </div>
+
+
+                <div className="form-group">
+                  <label htmlFor="email">Full Name</label>
+                  <Input
+                    type="text"
+                    className="form-control"
+                    name="name"
+                    value={this.state.name}
+                    onChange={this.onChangeName}
+                    validations={[required, vname]}
+                  />
+                </div>
+
+
+                <div className="form-group">
+                  <label htmlFor="email">Age</label>
+                  <Input
+                    type="text"
+                    className="form-control"
+                    name="age"
+                    value={this.state.age}
+                    onChange={this.onChangeAge}
+                    validations={[required, vage]}
+                  />
+                </div>
+
+
+                <div className="form-group">
+                  <label htmlFor="email">Enter your Weight in pounds</label>
+                  <Input
+                    type="text"
+                    className="form-control"
+                    name="weight"
+                    value={this.state.weight}
+                    onChange={this.onChangeWeight}
+                    validations={[required, vweight]}
+                  />
+                </div>
+
+
+                <div className="form-group">
+                  <label htmlFor="email">Enter your Height in inches</label>
+                  <Input
+                    type="text"
+                    className="form-control"
+                    name="height"
+                    value={this.state.height}
+                    onChange={this.onChangeHeight}
+                    validations={[required, vheight]}
+                  />
+                </div>
+
+
+                <div className="form-group">
+                  <label htmlFor="email">What is your Fitness Goal?</label>
+                  <Input
+                    type="text"
+                    className="form-control"
+                    name="Goal"
+                    value={this.state.goal}
+                    onChange={this.onChangeGoal}
+                    validations={[required, vgoal]}
                   />
                 </div>
 
@@ -198,6 +360,7 @@ export default class Register extends Component {
             />
           </Form>
         </div>
+      </div>
       </div>
     );
   }

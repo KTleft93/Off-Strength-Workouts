@@ -53,7 +53,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Band up row.mp4" type="video/mp4"/>
 </video>
  
@@ -64,7 +64,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Banded shoulder shuffle.mp4" type="video/mp4"/>
 </video>
  
@@ -75,7 +75,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Barbell military press.mp4" type="video/mp4"/>
 </video>
  
@@ -86,7 +86,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Front raises- standing.mp4" type="video/mp4"/>
 </video>
  
@@ -97,7 +97,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Front side raise.mp4" type="video/mp4"/>
 </video>
  
@@ -108,7 +108,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/KettleBell Circles.mp4" type="video/mp4"/>
 </video>
  
@@ -119,7 +119,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/KettleBell Snatch.mp4" type="video/mp4"/>
 </video>
  
@@ -131,7 +131,7 @@ return(
 
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Kneeling Shoulder Press_Push Up.mp4" type="video/mp4"/>
 </video>
  

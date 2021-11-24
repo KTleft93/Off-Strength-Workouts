@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import UserService from "../services/user.service";
-import './chest-ex-vids.css';
+
 
 export default class ChestExVids extends Component {
 
@@ -42,7 +42,7 @@ return(
 <div className="grid-container">
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Alternating incline press.mp4" type="video/mp4"/>
 </video>
  
@@ -54,7 +54,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/1A DB Chest Press.mp4" type="video/mp4"/>
 </video>
  
@@ -66,7 +66,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Decline Push Up.mp4" type="video/mp4"/>
 </video>
  
@@ -78,7 +78,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Explosive Bosu Push Ups.mp4" type="video/mp4"/>
 </video>
  
@@ -90,7 +90,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Incline Push Up.mp4" type="video/mp4"/>
 </video>
  
@@ -101,7 +101,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Modified 3D push up.mp4" type="video/mp4"/>
 </video>
  
@@ -112,7 +112,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Push Up Stability Ball.mp4" type="video/mp4"/>
 </video>
  
@@ -124,7 +124,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Push up tap & raise.mp4" type="video/mp4"/>
 </video>
  

@@ -42,7 +42,7 @@ return(
 <div className="grid-container">
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Ball Slams Overhead.mp4" type="video/mp4"/>
 </video>
  
@@ -53,7 +53,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   //<source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Barbell ab rollouts.mp4" type="video/mp4"/>
 </video>
  
@@ -64,7 +64,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
  // <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Bird Dog.mp4" type="video/mp4"/>
 </video>
  
@@ -75,7 +75,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Bosu Ball Ab Circuit.mp4" type="video/mp4"/>
 </video>
  
@@ -86,7 +86,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Core Circuit.mp4" type="video/mp4"/>
 </video>
  
@@ -97,7 +97,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Crunches_Knees Up.mp4" type="video/mp4"/>
 </video>
  
@@ -108,7 +108,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/FARMERS WALK.mp4" type="video/mp4"/>
 </video>
  
@@ -120,7 +120,7 @@ return(
 
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Hi Lo Band Rotations.mp4" type="video/mp4"/>
 </video>
  
@@ -131,7 +131,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Hollow Hold_Feet Down.mp4" type="video/mp4"/>
 </video>
  
@@ -142,7 +142,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Knees Up Side Crunches.mp4" type="video/mp4"/>
 </video>
  
@@ -153,7 +153,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Med ball mountain climbers.mp4" type="video/mp4"/>
 </video>
  
@@ -164,7 +164,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Med ball plank rockers.mp4" type="video/mp4"/>
 </video>
  
@@ -175,7 +175,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Med ball side rockers.mp4" type="video/mp4"/>
 </video>
  
@@ -186,7 +186,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Medicine ball crunches.mp4" type="video/mp4"/>
 </video>
  
@@ -197,7 +197,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Med ball sit ups.mp4" type="video/mp4"/>
 </video>
  
@@ -209,7 +209,7 @@ return(
 
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Medicine Ball Knee Tucks.mp4" type="video/mp4"/>
 </video>
  
@@ -221,7 +221,7 @@ return(
 
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Medicine Ball Pike.mp4" type="video/mp4"/>
 </video>
  
@@ -233,7 +233,7 @@ return(
 
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Medicine Ball Plank Circuit.mp4" type="video/mp4"/>
 </video>
  
@@ -245,7 +245,7 @@ return(
 
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Medicine ball side crunches.mp4" type="video/mp4"/>
 </video>
  
@@ -257,7 +257,7 @@ return(
 
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Medicine ball side plan.mp4" type="video/mp4"/>
 </video>
  
@@ -269,7 +269,7 @@ return(
 
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Oblique Shimmy.mp4" type="video/mp4"/>
 </video>
  
@@ -281,7 +281,7 @@ return(
 
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/One arm plank.mp4" type="video/mp4"/>
 </video>
  
@@ -293,7 +293,7 @@ return(
 
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Pallof Press1.mp4" type="video/mp4"/>
 </video>
  
@@ -305,7 +305,7 @@ return(
 
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Plank Kicks.mp4" type="video/mp4"/>
 </video>
  
@@ -316,7 +316,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Plank leg raises.mp4" type="video/mp4"/>
 </video>
  
@@ -327,7 +327,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Plank rockers.mp4" type="video/mp4"/>
 </video>
  
@@ -338,7 +338,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Plank.mp4" type="video/mp4"/>
 </video>
  
@@ -349,7 +349,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Raising flutter kicks.mp4" type="video/mp4"/>
 </video>
  
@@ -361,7 +361,7 @@ return(
 
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Russian Twists_Legs Down.mp4" type="video/mp4"/>
 </video>
  
@@ -373,7 +373,7 @@ return(
 
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Russians Twists_Feet Up.mp4" type="video/mp4"/>
 </video>
  
@@ -385,7 +385,7 @@ return(
 
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Side Crunch Variation.mp4" type="video/mp4"/>
 </video>
  
@@ -397,7 +397,7 @@ return(
 
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Side Plank To Crunch.mp4" type="video/mp4"/>
 </video>
  
@@ -409,7 +409,7 @@ return(
 
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Slider Reach.mp4" type="video/mp4"/>
 </video>
  
@@ -420,7 +420,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Star plank.mp4" type="video/mp4"/>
 </video>
  
@@ -431,7 +431,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Starfish Crunch.mp4" type="video/mp4"/>
 </video>
  
@@ -442,7 +442,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Twisters.mp4" type="video/mp4"/>
 </video>
  

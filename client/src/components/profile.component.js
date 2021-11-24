@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Redirect } from "react-router-dom";
 import AuthService from "../services/auth.service";
+import "../App.css";
+
 
 export default class Profile extends Component {
   constructor(props) {
@@ -16,6 +18,7 @@ export default class Profile extends Component {
   componentDidMount() {
     const currentUser = AuthService.getCurrentUser();
 
+    console.log(currentUser);
     if (!currentUser) this.setState({ redirect: "/home" });
     this.setState({ currentUser: currentUser, userReady: true })
   }
@@ -26,7 +29,7 @@ export default class Profile extends Component {
     }
 
     const { currentUser } = this.state;
-
+   
     return (
       <div className="container">
         {(this.state.userReady) ?
@@ -40,7 +43,33 @@ export default class Profile extends Component {
           <strong>Email:</strong>{" "}
           {currentUser.email}
         </p>
+
+        <p>
+          <strong>Name:</strong>{" "}
+          {currentUser.name}
+        </p>
+
+        <p>
+          <strong>Age:</strong>{" "}
+          {currentUser.age}
+        </p>
       
+        <p>
+          <strong>Height:</strong>{" "}
+          {currentUser.height}
+        inches</p>
+
+        <p>
+          <strong>Weight:</strong>{" "}
+          {currentUser.weight}
+         lbs</p>
+
+        <p>
+          <strong>Your Goal:</strong>{" "}
+          {currentUser.goal}
+        </p>
+
+
       </div>: null}
       </div>
     );

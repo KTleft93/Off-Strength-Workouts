@@ -1,3 +1,4 @@
 module.exports = {
-  secret: "ktn-secret-key"
+  secret: "ktn-secret-key",
+  clientURL: "http://localhost:8081"
 };

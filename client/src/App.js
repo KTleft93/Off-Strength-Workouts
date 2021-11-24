@@ -5,6 +5,8 @@ import "./App.css";
 
 import AuthService from "./services/auth.service";
 import Footer from "./components/footer.component";
+import ForgotPassword from "./components/forgotpassword.component";
+import ResetPassword from "./components/resetpassword.component";
 import Chart from "./components/chart.component";
 import Login from "./components/login.component";
 import Register from "./components/register.component";
@@ -122,10 +124,12 @@ class App extends Component {
          
         </nav>
         
-        <div className="container mt-3">
+        <div>
           <Switch>
             <Route exact path={["/", "/home"]} component={Home} />
             <Route exact path="/login" component={Login} />
+            <Route exact path="/forgotpassword" component={ForgotPassword} />
+            <Route exact path="/reset/:id" component={ResetPassword} />
             <Route exact path="/register" component={Register} />
             <Route exact path="/profile" component={Profile} />
             <Route path="/user" component={BoardUser} />
@@ -142,8 +146,11 @@ class App extends Component {
             <Route path="/admin" component={BoardAdmin} />
           </Switch>
         </div>
-        
-         <Footer/>
+
+        <div className="fixed-footer">
+        <Footer/> 
+        </div>
+
       </div>
     );
   }

@@ -42,7 +42,7 @@ return(
 <div className="grid-container">
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/1A cable row.mp4" type="video/mp4"/>
 </video>
  
@@ -54,7 +54,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Back extensions.mp4" type="video/mp4"/>
 </video>
  
@@ -66,7 +66,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Back Hold.mp4" type="video/mp4"/>
 </video>
  
@@ -77,7 +77,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Band pulldown.mp4" type="video/mp4"/>
 </video>
  
@@ -88,7 +88,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Barbell row grips.mp4" type="video/mp4"/>
 </video>
  
@@ -99,7 +99,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Pendlay Row.mp4" type="video/mp4"/>
 </video>
  
@@ -110,7 +110,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Renegade Row.mp4" type="video/mp4"/>
 </video>
  
@@ -121,7 +121,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/RR Press.mp4" type="video/mp4"/>
 </video>
  
@@ -132,7 +132,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Seated Row.mp4" type="video/mp4"/>
 </video>
  
@@ -143,7 +143,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Superman Hold-2.mp4" type="video/mp4"/>
 </video>
  
@@ -154,7 +154,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Superman raises.mp4" type="video/mp4"/>
 </video>
  
@@ -164,16 +164,6 @@ return(
   </div>
 </div>
 
-<div class="card" style={{width: "20rem"}}>
-  <video controls>
-  <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Superman W.mp4" type="video/mp4"/>
-</video>
- 
-  <div class="card-body">
-    <h5 class="card-title">Superman W</h5>
-    <p class="card-text">Lying on your stomach, extend your arms and legs fully. Raise your chest and thighs off the ground while keeping your chin tucked. Retract your arms back in a W formation and hold.</p>
-  </div>
-</div>
 
 </div>
 

@@ -42,7 +42,7 @@ return(
 <div className="grid-container">
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Alternating curls.mp4" type="video/mp4"/>
 </video>
  
@@ -53,7 +53,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Arm twisters.mp4" type="video/mp4"/>
 </video>
  
@@ -64,7 +64,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Concentration curls.mp4" type="video/mp4"/>
 </video>
  
@@ -75,7 +75,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Cross body curls.mp4" type="video/mp4"/>
 </video>
  
@@ -86,7 +86,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Full curls.mp4" type="video/mp4"/>
 </video>
  
@@ -97,7 +97,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Half curls.mp4" type="video/mp4"/>
 </video>
  
@@ -108,7 +108,7 @@ return(
 </div>
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Hammer curls.mp4" type="video/mp4"/>
 </video>
  
@@ -120,7 +120,7 @@ return(
 
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Negative curls.mp4" type="video/mp4"/>
 </video>
  
@@ -132,7 +132,7 @@ return(
 
 
 <div class="card" style={{width: "20rem"}}>
-  <video controls>
+  <video style={{width: "20rem"}} controls>
   <source src="http://d1npt7ns5uaxtu.cloudfront.net/Youtube folder/Reverse curls.mp4" type="video/mp4"/>
 </video>
  

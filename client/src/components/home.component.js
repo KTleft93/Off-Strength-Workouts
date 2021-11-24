@@ -3,6 +3,8 @@ import Chart from './chart.component';
 
 import UserService from "../services/user.service";
 
+import "../App.css";
+
 export default class Home extends Component {
   
   constructor(props) {
@@ -35,7 +37,8 @@ export default class Home extends Component {
 
 
     return (
-<div id="parent">
+
+<div className="container">
  <div class="bgimage">
     <div class="container-fluid">
     <div class="row">

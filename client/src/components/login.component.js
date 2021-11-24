@@ -1,9 +1,12 @@
 import React, { Component } from "react";
+
+import { Link } from "react-router-dom";
+
 import Form from "react-validation/build/form";
 import Input from "react-validation/build/input";
 import CheckButton from "react-validation/build/button";
-
 import AuthService from "../services/auth.service";
+import "../App.css";
 
 const required = value => {
   if (!value) {
@@ -81,6 +84,8 @@ export default class Login extends Component {
 
   render() {
     return (
+
+    <div className="container">
       <div className="col-md-12">
         <div className="card card-container">
         
@@ -90,12 +95,16 @@ export default class Login extends Component {
               this.form = c;
             }}
           >
+            <div className="form-heading">
+            <h3>LOGIN</h3>
+            </div>
             <div className="form-group">
-              <label htmlFor="username">Username</label>
+            
               <Input
                 type="text"
                 className="form-control"
                 name="username"
+                placeholder="Username"
                 value={this.state.username}
                 onChange={this.onChangeUsername}
                 validations={[required]}
@@ -103,10 +112,11 @@ export default class Login extends Component {
             </div>
 
             <div className="form-group">
-              <label htmlFor="password">Password</label>
+         
               <Input
                 type="password"
                 className="form-control"
+                placeholder="Password"
                 name="password"
                 value={this.state.password}
                 onChange={this.onChangePassword}
@@ -139,8 +149,10 @@ export default class Login extends Component {
                 this.checkBtn = c;
               }}
             />
+            <Link to="/forgotpassword">Forgot Password?</Link>
           </Form>
         </div>
+      </div>
       </div>
     );
   }
