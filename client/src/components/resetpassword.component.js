@@ -3,6 +3,37 @@ import { Redirect } from 'react-router';
 import axios from 'axios';
 
 
+	const required = value => {
+		  if (!value) {
+    return (
+      <div className="alert alert-danger" role="alert">
+        This field is required!
+      </div>
+    );
+	}
+};
+
+const password = value => {
+  if (value.length < 6 || value.length > 40) {
+    return (
+      <div className="alert alert-danger" role="alert">
+        The password must be between 6 and 40 characters.
+      </div>
+    );
+  }
+};
+
+const password_confirm = value => {
+  if (value.length < 6 || value.length > 40) {
+    return (
+      <div className="alert alert-danger" role="alert">
+        The password must be between 6 and 40 characters.
+      </div>
+    );
+  }
+};
+
+
 export default class ResetPassword extends Component {
 
 	state = {};
@@ -35,6 +66,8 @@ export default class ResetPassword extends Component {
 
 		)
 	};
+
+
 
 	render(){
 

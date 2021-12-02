@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import UserService from "../services/user.service";
-
+import './chest-ex-vids.css';
 
 export default class ChestExVids extends Component {
 
